@@ -27,8 +27,8 @@ Identificar tendências no acesso à internet por crianças e jovens.
 - Os dados vêm do Cetic.br, fonte de referência no Brasil para coleta de informações sobre o uso da internet. Estes dados são cruciais para a construção das análises do projeto.
 
 ## Metodologia e Ferramentas
-- ## Esquema Estrela e Dicionário de Dados
-- Para organizar os dados, foi implementado um esquema estrela, que permite a visualização eficiente das informações em torno de uma tabela fato (o uso da internet) e tabelas dimensões (idade, dispositivos, sexo, etc.). Um dicionário de dados foi criado para definir os termos e a estrutura de cada dado utilizado no projeto, garantindo consistência na modelagem.
+- ## Modelo Estrela e Dicionário de Dados
+- Para organizar os dados, foi implementado um modelo estrela, que permite a visualização eficiente das informações em torno de uma tabela fato (o uso da internet) e tabelas dimensões (idade, dispositivos, sexo, etc.). Um dicionário de dados foi criado para definir os termos e a estrutura de cada dado utilizado no projeto, garantindo consistência na modelagem.
 
 - ## Ferramenta Pentaho
   - O Pentaho é a plataforma utilizada para a integração dos dados e a criação do dashboard. Ele permite a execução dos processos de ETL (Extração, Transformação e Carga) para consolidar os dados e alimentá-los no esquema estrela, gerando visualizações dinâmicas.
@@ -43,9 +43,16 @@ Identificar tendências no acesso à internet por crianças e jovens.
     
 - ## Requisitos Técnicos
   - Integração dos dados via Pentaho, com suporte para grandes volumes de dados.
-  - Estruturação em um esquema estrela para otimizar as consultas.
+  - Estruturação em um modelo estrela para otimizar as consultas.
   - Dashboard responsivo e intuitivo.
 
 ## Conclusão
 - O levantamento de necessidades define os principais objetivos e requisitos para a criação de um dashboard que facilite a análise do uso da internet entre diferentes grupos de usuários. A utilização do Pentaho, o esquema estrela e o dicionário de dados garantem que o projeto será eficiente e bem-estruturado, contribuindo para insights sobre o acesso de crianças e jovens à internet.
 
+# Dicionario de Dados
+
+![Dicionário de Dados_page-0001](https://github.com/user-attachments/assets/71fc9d6b-014d-47c8-8587-780b64f22313)
+
+# Modelo Estrela
+
+![Dicionário de Dados_page-0002](https://github.com/user-attachments/assets/38b70e40-bb9f-494a-b97c-32864582e8b8)
